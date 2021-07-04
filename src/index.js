@@ -19,9 +19,9 @@ function buildCardDOM(book) {
       `<div class="card">
         <img src="${booksCollection.image_base_url.concat(book.ImageURL)}" alt="#">
         <div class="books-info">
-            <div class="album">${book.Title}</div>
-            <div class="artist">${book.Authors}</div>
-            <div class="genre">${book.Format}</div>
+            <div class="Title">${book.Title}</div>
+            <div class="Authors">${book.Authors}</div>
+            <div class="Format">${book.Format}</div>
         </div>
        </div>`
     )
